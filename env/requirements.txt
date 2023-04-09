@@ -1,0 +1,11 @@
+catboost==1.1.1
+gradio==3.24.1
+lightgbm==3.3.5
+matplotlib==3.6.2
+missingno==0.5.2
+numpy==1.23.5
+pandas==1.5.2
+protobuf==4.22.1
+scikit_learn==1.2.2
+seaborn==0.12.2
+xgboost==1.7.5
