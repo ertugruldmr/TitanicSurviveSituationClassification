@@ -21,13 +21,13 @@
 - (B) [__Detailed__](#Details)
   - [__Abstract__](#abstract)
   - [__Explanation of the study__](#explanation-of-the-study)
-    - [__(A) Dependencies__](/readme.md#a-dependencies)
-    - [__(B) Dataset__](/readme.md##b-dataset)
-    - [__(C) Pre-processing__](/readme.md#c-pre-processing)
-    - [__(D) Exploratory Data Analysis__](/readme.md#d-exploratory-data-analysis)
-    - [__(E) Modelling__](/readme.md#e-modelling)
-    - [__(F) Saving the project__](/readme.md#f-saving-the-project)
-    - [__(G) Deployment as web demo app__](/readme.md#g-deployment-as-web-demo-app)
+    - [__(A) Dependencies__](#a-dependencies)
+    - [__(B) Dataset__](#b-dataset)
+    - [__(C) Pre-processing__](#c-pre-processing)
+    - [__(D) Exploratory Data Analysis__](#d-exploratory-data-analysis)
+    - [__(E) Modelling__](#e-modelling)
+    - [__(F) Saving the project__](#f-saving-the-project)
+    - [__(G) Deployment as web demo app__](#g-deployment-as-web-demo-app)
   - [__Licance__](#license)
   - [__Connection Links__](#connection-links)
 
@@ -200,12 +200,11 @@ The project aimed classifying the passengers using the features. The study inclu
 
 
 
-## Details (don't forget using the metrics but DETAILED)
-### Table Of content
-### Introduction
-#### Abstract
+## Details
+
+### Abstract
 - Titanic Dataset is used to classifying the survive situation of passengers. The dataset has 891 records and two class (survived, not survived). The problem is supervised learning task as binary classification. The goal is the predicting the survive situations of the passengers correctly through using supervised machine learning algorithms such as non-linear, ensemble and smilar classic machine learning model.The study includes creating the environment, getting the data, preprocessing the data, exploring the data, modelling the data, saving the results, deployment as demo app. Training phase of the models implemented through cross validation and Grid Search model tuning approachs. Hyperparameter tuning implemented Greedy Greed Search approach which tunes a hyper param at once a time while iterating the sorted order according the importance of the hyperparams. Models are evaluated with cross validation methods using 5 split. Classification results collected and compared between the models. Selected the basic and more accurated model which is the __logistic regression__. Tuned __Logistic regression__ model has __%97__ accuracy, precision, recall, f1_score, the other metrics are also found the results section such as feature importance. End of the study created a demo and served on huggingface space.  
-#### File Structures
+### File Structures
 
 - File Structure Tree
 ```bash
@@ -245,12 +244,12 @@ The project aimed classifying the passengers using the features. The study inclu
     - It is all the studies about solving the problem which reason of the dataset existance.    
 
 
-#### Explanation of the Study
-- __(A) Dependencies__:
+### Explanation of the Study
+#### __(A) Dependencies__:
   -  There in no additional or third-parth installation. The libraries which already installed on the environment are enough. You can create an environment via env/requirements.txt. Create a virtual environment then use hte following code. It is enough to satisfy the requirements for runing the study.ipynb which training pipeline.
-- __(B) Dataset__: 
+#### __(B) Dataset__: 
   - Downloading the iris dataset via seaborn library as pandas DataFrame object. The dataset has 891 records.The target has Binary classes as syurvived or not.  There are 15 features, 9 features are categorical and 6 features are numerical.The target variable has two class as supervised and not supervised. for more info such as histograms and etc... you can look the '(D) Exploratory Data Analysis' chapter.
-- __(C) Pre-processing__: 
+#### __(C) Pre-processing__: 
   - The processes are below:
     - Preparing the dtypes such as casting the object type to categorical type.
     - Feature engineering provess for creating new variables and logaritmic transformation.
@@ -263,7 +262,7 @@ The project aimed classifying the passengers using the features. The study inclu
           <img src="docs/images/outlier_analysis.png" style="width: 600px; height: 150px;">
       </div>
  
-- __(D) Exploratory Data Analysis__:
+#### __(D) Exploratory Data Analysis__:
   - Dataset Stats
       <table>
       <tr><th>Data Info </th><th><div style="padding-left: 50px;">Stats</div></th></tr>
@@ -344,7 +343,7 @@ The project aimed classifying the passengers using the features. The study inclu
       </div>
     </div>
 
-- __(E) Modelling__: 
+#### __(E) Modelling__: 
   - Data Split
     - Splitting the dataset via  sklearn.model_selection.train_test_split (test_size = 0.2).
   - Util Functions
@@ -432,10 +431,10 @@ The project aimed classifying the passengers using the features. The study inclu
       </div>
 
 
-- __(F) Saving the project__: 
+#### __(F) Saving the project__: 
   - Saving the project and demo studies.
     - trained model __loj_ref.sav__ as pickle format.
-- __(G) Deployment as web demo app__: 
+#### __(G) Deployment as web demo app__: 
   - Creating Gradio Web app to Demostrate the project.Then Serving the demo via huggingface as live.
   - Desciption
     - Project goal is classify the survive situation of the passengers  based on four features.
