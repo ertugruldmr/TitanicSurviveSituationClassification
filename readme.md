@@ -21,13 +21,13 @@
 - (B) [__Detailed__](#Details)
   - [__Abstract__](#abstract)
   - [__Explanation of the study__](#explanation-of-the-study)
-    - [__(A) Dependencies__](#a-dependencies)
-    - [__(B) Dataset__](#b-dataset)
-    - [__(C) Pre-processing__](#c-pre-processing)
-    - [__(D) Exploratory Data Analysis__](#d-exploratory-data-analysis)
-    - [__(E) Modelling__](#e-modelling)
-    - [__(F) Saving the project__](#f-saving-the-project)
-    - [__(G) Deployment as web demo app__](#g-deployment-as-web-demo-app)
+    - [__(A) Dependencies__](../readme.md#a-dependencies)
+    - [__(B) Dataset__](../readme.md##b-dataset)
+    - [__(C) Pre-processing__](../readme.md#c-pre-processing)
+    - [__(D) Exploratory Data Analysis__](../readme.md#d-exploratory-data-analysis)
+    - [__(E) Modelling__](../readme.md#e-modelling)
+    - [__(F) Saving the project__](../readme.md#f-saving-the-project)
+    - [__(G) Deployment as web demo app__](../readme.md#g-deployment-as-web-demo-app)
   - [__Licance__](#license)
   - [__Connection Links__](#connection-links)
 
@@ -49,13 +49,13 @@
         <a target="_blank" href="https://ertugruldemir-titanicsurvivesituationclassification.hf.space"><img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" height="30">[Demo app] HF Space</a>
       </td>
       <td>
-        <a target="_blank" href="classification.ipynb"><img src="https://www.tensorflow.org/images/colab_logo_32px.png">[Demo app] Run in Colab</a>
+        <a target="_blank" href="https://colab.research.google.com/drive/1t-rEWc8o_vPlJxXn2Gp9UVpVe-gMnOop"><img src="https://www.tensorflow.org/images/colab_logo_32px.png">[Demo app] Run in Colab</a>
       </td>
       <td>
-        <a target="_blank" href="classification.ipynb"><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png">[Traning pipeline] source on GitHub</a>
+        <a target="_blank" href="https://github.com/ertugruldmr/TitanicSurviveSituationClassification/blob/main/study.ipynb"><img src="https://www.tensorflow.org/images/GitHub-Mark-32px.png">[Traning pipeline] source on GitHub</a>
       </td>
     <td>
-        <a target="_blank" href="classification.ipynb"><img src="https://www.tensorflow.org/images/colab_logo_32px.png">[Traning pipeline] Run in Colab</a>
+        <a target="_blank" href="https://colab.research.google.com/drive/1egHRBtF9zIJJ3OZoFs8jsXwLxEvO-0u0"><img src="https://www.tensorflow.org/images/colab_logo_32px.png">[Traning pipeline] Run in Colab</a>
       </td>
     </tr>
   </table>
